@@ -1,7 +1,6 @@
 import React from 'react'
 import Saladas from '../../public/saladas.png'
 import Veganos from '../../public/veganos.png'
-import Sobremesas from '../../public/sobremesas.png'
 import Proteinas from '../../public/proteinas.png'
 import SucosNaturais from '../../public/SucosNaturais.png'
 import Image from 'next/image'
@@ -27,7 +26,7 @@ const BuffetChoices = () => {
         <h1>Sucos Naturais</h1>
       </div>
       <div class="bg-dtbtnw rounded-lg p-8 flex items-center flex-col mb-8 md:mb-0">
-        <Image src={Sobremesas} alt="" srcset="" />
+        <Image src={SucosNaturais} alt="" srcset="" />
         <h1>Sobremesas</h1>
       </div>
     </div>
